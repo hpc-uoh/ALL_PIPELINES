@@ -97,6 +97,7 @@ PIPELINE_MARKERS = {
 }
 
 EXPERIMENTAL_HINTS = ("template", "demo", "tutorial", "course", "learning")
+EXCLUDE_REPO_HINTS = (".github",)
 
 
 @dataclass
@@ -319,21 +320,24 @@ def is_candidate_repo(repo_json: dict[str, Any], root_names: set[str], readme_te
     name = repo_json["name"]
     if repo_json.get("fork") or repo_json.get("archived"):
         return False
-    if name.startswith("."):
+    if name.startswith(".") or name in EXCLUDE_REPO_HINTS:
         return False
+
     topics = set(repo_json.get("topics") or [])
     description = (repo_json.get("description") or "").lower()
+    readme_lower = readme_text.lower()
+
     if root_names & PIPELINE_MARKERS:
         return True
-    if {"nextflow", "pipeline", "bioinformatics", "workflow"} & topics:
+    if {"nextflow", "pipeline", "bioinformatics", "workflow", "rnaseq", "genomics", "metagenomics"} & topics:
         return True
-    if "pipeline" in description or "workflow" in description:
+    if any(keyword in description for keyword in ("pipeline", "workflow", "analysis", "rnaseq", "genome", "genomics", "metagen")):
         return True
-    if readme_text:
-        rl = readme_text.lower()
-        if "nextflow" in rl or "pipeline" in rl or "workflow" in rl:
-            return True
-    return False
+    if any(keyword in readme_lower for keyword in ("nextflow", "pipeline", "workflow", "analysis", "rnaseq", "genome", "genomics", "metagen")):
+        return True
+
+    # Fallback: include repositories that at least ship a README, then let status classify them.
+    return bool(readme_text.strip())
 
 
 def escape_cell(text: str) -> str:
