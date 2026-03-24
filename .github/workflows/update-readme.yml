@@ -28,7 +28,8 @@ jobs:
 
       - name: Generate README
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_ORG_READ_TOKEN || secrets.GITHUB_TOKEN }}
+          GH_ORG_READ_TOKEN: ${{ secrets.GH_ORG_READ_TOKEN }}
         run: python scripts/update_readme.py
 
       - name: Commit changes

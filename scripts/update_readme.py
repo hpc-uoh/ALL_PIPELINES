@@ -387,7 +387,7 @@ def build_readme(rows_by_org: dict[str, list[RepoSummary]]) -> str:
     lines.append("")
     lines.append("## Automatic Update")
     lines.append("")
-    lines.append("This file is generated automatically by `scripts/update_readme.py` using the GitHub API.")
+    lines.append("This file is generated automatically by `scripts/update_readme.py` using the GitHub API. If `GH_ORG_READ_TOKEN` is configured, private repositories from the tracked organizations are included as well.")
     lines.append("The GitHub Actions workflow `.github/workflows/update-readme.yml` refreshes it on a schedule and can also be triggered manually.")
     lines.append("")
     lines.append("## Criteria Used In This Table")
@@ -424,7 +424,7 @@ def main() -> int:
     rows_by_org: dict[str, list[RepoSummary]] = {}
 
     for org in ORGS:
-        repos = client.get_paginated(f"{API_BASE}/orgs/{org}/repos?per_page=100&type=public")
+        repos = client.get_paginated(f"{API_BASE}/orgs/{org}/repos?per_page=100&type=all")
         rows: list[RepoSummary] = []
         for repo_json in repos:
             summary = build_repo_summary(client, org, repo_json)
