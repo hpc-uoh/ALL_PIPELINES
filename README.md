@@ -17,7 +17,10 @@ The GitHub Actions workflow `.github/workflows/update-readme.yml` refreshes it o
 
 | Pipeline Name | Latest Version | Status | Description | Tools Used |
 |---|---|---|---|---|
+| [**miR-DE-cancer**](https://github.com/AGENslab/miR-DE-cancer) | No declared version | Documented | Este repositorio contiene un flujo de trabajo desarrollado en RStudio para el análisis de expresión diferencial de microRNAs (miRNAs) en proyectos... | RStudio, R, edgeR, multiMiR |
 | [**nf_rna_align**](https://github.com/AGENslab/nf_rna_align) | 1.0.0 | Active | Este pipeline automatiza las etapas de preprocesamiento, alineamiento y cuantificación de lecturas largas de RNA-seq. Está desarrollado en... | Nextflow, fastp, Slurm, BWA, FastQC |
+| [**Prediccion-de-interacciones-miRNA-mRNA**](https://github.com/AGENslab/Prediccion-de-interacciones-miRNA-mRNA) | No declared version | Documented | Este repositorio contiene el código desarrollado para una tesis que implementa y evalúa modelos de Deep Learning orientados a predecir... | Keras, Transformer |
+| [**Python_learning-Sesion_1**](https://github.com/AGENslab/Python_learning-Sesion_1) | No declared version | Experimental | Fecha: 22/08/2025 Docentes: Dra. Carol Moraga e Ing. Felipe Gómez | Python |
 
 ## digenoma-lab Pipelines
 
@@ -29,7 +32,9 @@ The GitHub Actions workflow `.github/workflows/update-readme.yml` refreshes it o
 | [**BRCA**](https://github.com/digenoma-lab/BRCA) | v1.0 | Active | A Nextflow pipeline for processing target NGS BRCA data | Nextflow, BWA, FastQC, Samtools, Qualimap |
 | [**BRCA12_ms**](https://github.com/digenoma-lab/BRCA12_ms) | v1.0 | Documented | Code for figure and analysis of BRCA12 ms | Nextflow |
 | [**call_snv**](https://github.com/digenoma-lab/call_snv) | 1.0 | Active | Nextflow pipeline for the identification of Single Nucleotide Variants (SNVs) from short-read sequences. | Nextflow, Python, Slurm, Manta, Samtools |
+| [**covid_genomics**](https://github.com/digenoma-lab/covid_genomics) | v1.0 | Documented | Repository holding analysis of 100 covid chilean genomes | Not specified |
 | [**Eval-RF-hap**](https://github.com/digenoma-lab/Eval-RF-hap) | v1.0.0 | Active | Eval-RF-hap is a Nextflow pipeline designed to evaluate the haplotyping performance of RFhap (or whatever other model to separate haplotypes),... | Nextflow, Slurm, Hifiasm, Nanopore |
+| [**FastKM**](https://github.com/digenoma-lab/FastKM) | v1.0 | Documented | FastKM is a lightweight C++ tool for fast k-mer marker lookup in long reads using a minimal perfect hash function (MPHF) and a compact... | Not specified |
 | [**HBW**](https://github.com/digenoma-lab/HBW) | No declared version | Documented | HBW is a repository hold code for implementing trio-based binning and bubble graph approaches to diploid assembly but for hybrid genomic datasets... | Wengan |
 | [**HistologyFeatureExtraction**](https://github.com/digenoma-lab/HistologyFeatureExtraction) | 1.1 | Active | A Nextflow pipeline for extracting features from histology whole slide images (WSI) using multiple patch and slide encoders via TRIDENT. | Nextflow, Python, Slurm, OpenCV, PyTorch |
 | [**HistologyLinearProbing**](https://github.com/digenoma-lab/HistologyLinearProbing) | 1.4 | Active | Linear probing pipeline for histopathology to evaluate different feature extractors (foundation models) using Elastic Net classification on genes... | Nextflow, Python, R, Slurm, scikit-learn |
@@ -41,9 +46,12 @@ The GitHub Actions workflow `.github/workflows/update-readme.yml` refreshes it o
 | [**nf-bakta**](https://github.com/digenoma-lab/nf-bakta) | v1.1 | Active | A Nextflow pipeline for the annotation of bacterial genomes or MAGs running Bakta. | Nextflow, Python, UniProt, Slurm, Bakta |
 | [**nf-groot**](https://github.com/digenoma-lab/nf-groot) | No declared version | Active | A Nextflow pipeline for running Groot, which is a tool to type Antibiotic Resistance Genes (ARGs) in metagenomic samples. | Nextflow, Slurm |
 | [**nf-mag-depths**](https://github.com/digenoma-lab/nf-mag-depths) | No declared version | Active | A nextflow pipeline to calculate depth of coverage from a metagenomic set of bins. | Nextflow, BWA, MetaBAT, Samtools |
+| [**oncovirus**](https://github.com/digenoma-lab/oncovirus) | No declared version | Documented | prediction of somatic virus integration from WGS using hmftools | Not specified |
 | [**rfhap**](https://github.com/digenoma-lab/rfhap) | V2.0 | Active | A Nextflow pipeline for long-read phasing in trio datasets, leveraging multiple k-mers and a random forest classifier. | Nextflow, Random Forest, Slurm, Hifiasm |
+| [**rfhap_ms**](https://github.com/digenoma-lab/rfhap_ms) | v1.0 | Documented | Figures and analysis for RFHAP manuscript | Not specified |
 | [**snps_mags**](https://github.com/digenoma-lab/snps_mags) | V1.0 | Active | snps_mags is a Nextflow pipeline designed for calling point mutations in Metagenome-Assembled Genomes (MAGs) using InStrain. The pipeline... | Nextflow, Slurm, BWA, FastQC, Samtools |
 | [**somatic_point_mutations**](https://github.com/digenoma-lab/somatic_point_mutations) | v1.1 | Active | This repository provides a Nextflow pipeline for calling somatic point mutations from tumor/normal pairs using Whole Genome Sequencing (WGS) or... | Nextflow, Python, Slurm, Manta, bcftools |
 | [**spg**](https://github.com/digenoma-lab/spg) | 1.0 | Active | Simple Pan-Genome workflow for MAGs. | Nextflow, Python, Slurm, MetaBAT, Prokka |
+| [**Summer_Course_ML**](https://github.com/digenoma-lab/Summer_Course_ML) | No declared version | Experimental | Material for the CMM summer course | Not specified |
 
 > Note: this table is heuristic. Some repositories do not declare versions or toolchains explicitly, so the best possible inference is shown from the metadata available on GitHub.
