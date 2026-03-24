@@ -18,6 +18,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -36,4 +38,5 @@ jobs:
           git add README.md
           git diff --cached --quiet && exit 0
           git commit -m "chore: update README"
+          git pull --rebase origin "${GITHUB_REF_NAME:-main}"
           git push
