@@ -29,7 +29,6 @@ The GitHub Actions workflow `.github/workflows/update-readme.yml` refreshes it o
 | [**Python_learning-Sesion_1**](https://github.com/AGENslab/Python_learning-Sesion_1) | No declared version | Experimental | Fecha: 22/08/2025 Docentes: Dra. Carol Moraga e Ing. Felipe Gómez | Python |
 | [**sarcopipe**](https://github.com/AGENslab/sarcopipe) | 0.1.1 | Active | Sarcopipe is a Nextflow pipeline designed for the identification and linkage of miRNAs and mRNAs, specifically tailored for analyzing Sarcopenia... | Nextflow, fastp, BrumiR, Slurm, miRDeep2 |
 | [**StressPathways**](https://github.com/AGENslab/StressPathways) | No declared version | Documented | identification of participant genes in different stress pathways | Not specified |
-| [**test4allpipelines**](https://github.com/AGENslab/test4allpipelines) | No declared version | Documented | test | Not specified |
 
 ## digenoma-lab Pipelines
 
