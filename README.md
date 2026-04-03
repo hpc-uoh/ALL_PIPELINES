@@ -59,6 +59,7 @@ The GitHub Actions workflow `.github/workflows/update-readme.yml` refreshes it o
 | [**dgl_workflows**](https://github.com/digenoma-lab/dgl_workflows) | No declared version | Documented | Repo with documentation about the different workflows of digenomalab | Bakta |
 | [**DifferentialMethylationRegions**](https://github.com/digenoma-lab/DifferentialMethylationRegions) | 0.0.1 | Active | Nextflow pipeline to preprocess modkit-style BEDs, build common CpG sets per chromosome, run differential methylation (DSS, multi-factor) and... | Nextflow, R, Slurm, bcftools, bedtools |
 | [**dipdiff-nf**](https://github.com/digenoma-lab/dipdiff-nf) | 1.0 | Active | Nextflow for running dipdiff | Nextflow, STAR, Wengan, minimap2, Samtools |
+| [**EpiTractor**](https://github.com/digenoma-lab/EpiTractor) | No declared version | Documented | EpiTractor, a library for ancestry-based methylation DMLs. | Not specified |
 | [**Eval-RF-hap**](https://github.com/digenoma-lab/Eval-RF-hap) | v1.0.0 | Active | Eval-RF-hap is a Nextflow pipeline designed to evaluate the haplotyping performance of RFhap (or whatever other model to separate haplotypes),... | Nextflow, Slurm, Hifiasm, Nanopore |
 | [**EWAS**](https://github.com/digenoma-lab/EWAS) | No declared version | Documented | Epigenetic wide association study | Not specified |
 | [**fast_hybrid_polising**](https://github.com/digenoma-lab/fast_hybrid_polising) | 0.1 | Active | nextflow run main.nf --long_reads ./test/long-reads --short_reads ./test/short-reads --outdir results --debug true | Nextflow, Slurm, Racon, minimap2 |
