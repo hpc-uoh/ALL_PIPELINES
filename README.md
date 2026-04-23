@@ -34,6 +34,7 @@ The GitHub Actions workflow `.github/workflows/update-readme.yml` refreshes it o
 
 | Pipeline Name | Latest Version | Status | Description | Tools Used |
 |---|---|---|---|---|
+| [**aigen2026**](https://github.com/digenoma-lab/aigen2026) | No declared version | Documented | Sitio oficial del workshop AIGEN 2026: IA y Genómica para la Salud Pública, construido con Hugo y preparado para despliegue en Netlify. | Not specified |
 | [**alndv**](https://github.com/digenoma-lab/alndv) | v1.0 | Active | A nextflow (DSL 2) Whole‑Genome Short‑Read Pipeline (BWA‑MEM2 → DeepVariant → GLnexus) for small‑variant discovery from paired‑end FASTQ files. | Nextflow, Slurm, BWA, FastQC, Samtools |
 | [**alndvs**](https://github.com/digenoma-lab/alndvs) | No declared version | Documented | Somatic point mutation calling for matched and tumor-only samples | Not specified |
 | [**alnsl**](https://github.com/digenoma-lab/alnsl) | V0.1 | Active | A nextflow pipeline for alignment of short WGS reads. | Nextflow, Slurm, BWA, FastQC, Samtools |
@@ -59,6 +60,7 @@ The GitHub Actions workflow `.github/workflows/update-readme.yml` refreshes it o
 | [**dgl_workflows**](https://github.com/digenoma-lab/dgl_workflows) | No declared version | Documented | Repo with documentation about the different workflows of digenomalab | Bakta |
 | [**DifferentialMethylationRegions**](https://github.com/digenoma-lab/DifferentialMethylationRegions) | 0.0.1 | Active | Nextflow pipeline to preprocess modkit-style BEDs, build common CpG sets per chromosome, run differential methylation (DSS, multi-factor) and... | Nextflow, R, Slurm, bcftools, bedtools |
 | [**dipdiff-nf**](https://github.com/digenoma-lab/dipdiff-nf) | 1.0 | Active | Nextflow for running dipdiff | Nextflow, STAR, Wengan, minimap2, Samtools |
+| [**DT_Gallbladder**](https://github.com/digenoma-lab/DT_Gallbladder) | No declared version | Documented | Figures for data description of Gallbladder Cancer samples | Not specified |
 | [**EpiTractor**](https://github.com/digenoma-lab/EpiTractor) | 0.1.0 | Documented | EpiTractor, a library for ancestry-based methylation DMLs. | Python |
 | [**Eval-RF-hap**](https://github.com/digenoma-lab/Eval-RF-hap) | v1.0.0 | Active | Eval-RF-hap is a Nextflow pipeline designed to evaluate the haplotyping performance of RFhap (or whatever other model to separate haplotypes),... | Nextflow, Slurm, Hifiasm, Nanopore |
 | [**EWAS**](https://github.com/digenoma-lab/EWAS) | No declared version | Documented | Epigenetic wide association study | Not specified |
