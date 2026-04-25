@@ -27,6 +27,7 @@ The GitHub Actions workflow `.github/workflows/update-readme.yml` refreshes it o
 | [**nf_rna_align**](https://github.com/AGENslab/nf_rna_align) | 1.0.0 | Active | Este pipeline automatiza las etapas de preprocesamiento, alineamiento y cuantificación de lecturas largas de RNA-seq. Está desarrollado en... | Nextflow, fastp, Slurm, BWA, FastQC |
 | [**Prediccion-de-interacciones-miRNA-mRNA**](https://github.com/AGENslab/Prediccion-de-interacciones-miRNA-mRNA) | No declared version | Documented | Este repositorio contiene el código desarrollado para una tesis que implementa y evalúa modelos de Deep Learning orientados a predecir... | Keras, Transformer |
 | [**Python_learning-Sesion_1**](https://github.com/AGENslab/Python_learning-Sesion_1) | No declared version | Experimental | Fecha: 22/08/2025 Docentes: Dra. Carol Moraga e Ing. Felipe Gómez | Python |
+| [**QualityTranscriptome**](https://github.com/AGENslab/QualityTranscriptome) | No declared version | Documented | Evaluation of quality of the assembly using RNA-Seq read representation | Not specified |
 | [**sarcopipe**](https://github.com/AGENslab/sarcopipe) | 0.1.1 | Active | Sarcopipe is a Nextflow pipeline designed for the identification and linkage of miRNAs and mRNAs, specifically tailored for analyzing Sarcopenia... | Nextflow, fastp, BrumiR, Slurm, miRDeep2 |
 | [**StressPathways**](https://github.com/AGENslab/StressPathways) | No declared version | Documented | identification of participant genes in different stress pathways | Not specified |
 
@@ -34,7 +35,7 @@ The GitHub Actions workflow `.github/workflows/update-readme.yml` refreshes it o
 
 | Pipeline Name | Latest Version | Status | Description | Tools Used |
 |---|---|---|---|---|
-| [**aigen2026**](https://github.com/digenoma-lab/aigen2026) | No declared version | Documented | Sitio oficial del workshop AIGEN 2026: IA y Genómica para la Salud Pública, construido con Hugo y preparado para despliegue en Netlify. | Not specified |
+| [**aigen2026**](https://github.com/digenoma-lab/aigen2026) | No declared version | Documented | Sitio oficial de la conferencia AIGEN 2026: IA y Genómica para la Salud Pública, construido con Hugo y preparado para despliegue en Netlify. | Not specified |
 | [**alndv**](https://github.com/digenoma-lab/alndv) | v1.0 | Active | A nextflow (DSL 2) Whole‑Genome Short‑Read Pipeline (BWA‑MEM2 → DeepVariant → GLnexus) for small‑variant discovery from paired‑end FASTQ files. | Nextflow, Slurm, BWA, FastQC, Samtools |
 | [**alndvs**](https://github.com/digenoma-lab/alndvs) | No declared version | Documented | Somatic point mutation calling for matched and tumor-only samples | Not specified |
 | [**alnsl**](https://github.com/digenoma-lab/alnsl) | V0.1 | Active | A nextflow pipeline for alignment of short WGS reads. | Nextflow, Slurm, BWA, FastQC, Samtools |
@@ -69,6 +70,7 @@ The GitHub Actions workflow `.github/workflows/update-readme.yml` refreshes it o
 | [**fchims**](https://github.com/digenoma-lab/fchims) | No declared version | Documented | Github with code for aseembly, annotation, methylation and variants. | Not specified |
 | [**functional_enrichment**](https://github.com/digenoma-lab/functional_enrichment) | 0.0.1 | Active | This pipeline performs functional enrichment analysis using GWAS data and local references. | Slurm, bcftools |
 | [**Gallbladder_WGS**](https://github.com/digenoma-lab/Gallbladder_WGS) | No declared version | Documented | Figures and analysis for Gallbladder manuscript | PURPLE |
+| [**gannot**](https://github.com/digenoma-lab/gannot) | 0.0.1 | Active | Clinical grade annotation of WGS variants. | Nextflow, Slurm, bcftools |
 | [**genome_assembly_tools**](https://github.com/digenoma-lab/genome_assembly_tools) | No declared version | Documented | Scripts to manipulate files associated to genome assembly | Not specified |
 | [**GWAS**](https://github.com/digenoma-lab/GWAS) | 1.6 | Active | Nextflow pipeline for genome-wide association analysis and ancestry-stratified GWAS with Tractor. Global and local ancestry (ADMIXTURE + RFMix)... | Nextflow, Slurm, Samtools, bcftools |
 | [**hapdup-nf**](https://github.com/digenoma-lab/hapdup-nf) | v1.0 | Active | Nextflow pipeline for running HapDup for haplotype assembly. | Nextflow, STAR, Wengan, minimap2, Samtools |
