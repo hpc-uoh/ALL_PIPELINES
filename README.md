@@ -70,7 +70,7 @@ The GitHub Actions workflow `.github/workflows/update-readme.yml` refreshes it o
 | [**fchims**](https://github.com/digenoma-lab/fchims) | No declared version | Documented | Github with code for aseembly, annotation, methylation and variants. | Not specified |
 | [**functional_enrichment**](https://github.com/digenoma-lab/functional_enrichment) | 0.0.1 | Active | This pipeline performs functional enrichment analysis using GWAS data and local references. | Slurm, bcftools |
 | [**Gallbladder_WGS**](https://github.com/digenoma-lab/Gallbladder_WGS) | No declared version | Documented | Figures and analysis for Gallbladder manuscript | PURPLE |
-| [**gannot**](https://github.com/digenoma-lab/gannot) | 0.0.1 | Active | Clinical grade annotation of WGS variants. | Nextflow, Slurm, bcftools |
+| [**gannot**](https://github.com/digenoma-lab/gannot) | 0.0.1 | Active | Clinical grade annotation of WGS variants. | Nextflow, Slurm, bcftools, bedtools |
 | [**genome_assembly_tools**](https://github.com/digenoma-lab/genome_assembly_tools) | No declared version | Documented | Scripts to manipulate files associated to genome assembly | Not specified |
 | [**GWAS**](https://github.com/digenoma-lab/GWAS) | 1.6 | Active | Nextflow pipeline for genome-wide association analysis and ancestry-stratified GWAS with Tractor. Global and local ancestry (ADMIXTURE + RFMix)... | Nextflow, Slurm, Samtools, bcftools |
 | [**hapdup-nf**](https://github.com/digenoma-lab/hapdup-nf) | v1.0 | Active | Nextflow pipeline for running HapDup for haplotype assembly. | Nextflow, STAR, Wengan, minimap2, Samtools |
