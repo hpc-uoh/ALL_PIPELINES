@@ -56,7 +56,7 @@ The GitHub Actions workflow `.github/workflows/update-readme.yml` refreshes it o
 | [**CHI-T2T**](https://github.com/digenoma-lab/CHI-T2T) | No declared version | Documented | Repo with analysis and data for the human genome paper. | Not specified |
 | [**covid_genomics**](https://github.com/digenoma-lab/covid_genomics) | v1.0 | Documented | Repository holding analysis of 100 covid chilean genomes | Not specified |
 | [**CRAB-MIL**](https://github.com/digenoma-lab/CRAB-MIL) | v1.0 | Experimental | This repository reproduces the results in the paper. | Python |
-| [**data-TARA**](https://github.com/digenoma-lab/data-TARA) | No declared version | Documented | Repositorio de análisis integrados MetaTranscriptómica (MetaT), MetaGenómica (MetaG) y Taxonomía del proyecto TARA Chile. Contiene los objetos... | RStudio |
+| [**data-TARA**](https://github.com/digenoma-lab/data-TARA) | No declared version | Documented | Repositorio de análisis integrados MetaTranscriptómica (MetaT) y MetaGenómica (MetaG) del proyecto TARA Chile. | Not specified |
 | [**DGL_TAT**](https://github.com/digenoma-lab/DGL_TAT) | No declared version | Documented | Repositorio con diversa documentación de procesos ejecutados por el digenoma lab en distintos cluster de computo | Not specified |
 | [**dgl_workflows**](https://github.com/digenoma-lab/dgl_workflows) | No declared version | Documented | Repo with documentation about the different workflows of digenomalab | Bakta |
 | [**DifferentialMethylationRegions**](https://github.com/digenoma-lab/DifferentialMethylationRegions) | 0.0.1 | Active | Nextflow pipeline to preprocess modkit-style BEDs, build common CpG sets per chromosome, run differential methylation (DSS, multi-factor) and... | Nextflow, R, Slurm, bcftools, bedtools |
