@@ -29,6 +29,7 @@ The GitHub Actions workflow `.github/workflows/update-readme.yml` refreshes it o
 | [**Python_learning-Sesion_1**](https://github.com/AGENslab/Python_learning-Sesion_1) | No declared version | Experimental | Fecha: 22/08/2025 Docentes: Dra. Carol Moraga e Ing. Felipe Gómez | Python |
 | [**QualityTranscriptome**](https://github.com/AGENslab/QualityTranscriptome) | No declared version | Documented | Evaluation of quality of the assembly using RNA-Seq read representation | Not specified |
 | [**sarcopipe**](https://github.com/AGENslab/sarcopipe) | 0.1.1 | Active | Sarcopipe is a Nextflow pipeline designed for the identification and linkage of miRNAs and mRNAs, specifically tailored for analyzing Sarcopenia... | Nextflow, fastp, BrumiR, Slurm, miRDeep2 |
+| [**STAR-align**](https://github.com/AGENslab/STAR-align) | No declared version | Active | Simple pipeline for RNA-seq alignment using STAR | STAR |
 | [**StressPathways**](https://github.com/AGENslab/StressPathways) | No declared version | Documented | identification of participant genes in different stress pathways | Not specified |
 
 ## digenoma-lab Pipelines
@@ -114,7 +115,6 @@ The GitHub Actions workflow `.github/workflows/update-readme.yml` refreshes it o
 | [**RF-mut-tumor-only**](https://github.com/digenoma-lab/RF-mut-tumor-only) | No declared version | Documented | El llamado de variantes con muestras pareadas de tejido tumoral y normal es más confiable que el llamado de variantes con muestras de tumor... | RStudio, R, bcftools |
 | [**rfhap**](https://github.com/digenoma-lab/rfhap) | V2.0 | Active | A Nextflow pipeline for long-read phasing in trio datasets, leveraging multiple k-mers and a random forest classifier. | Nextflow, Random Forest, Slurm, Hifiasm |
 | [**rfhap_ms**](https://github.com/digenoma-lab/rfhap_ms) | v1.0 | Documented | Figures and analysis for RFHAP manuscript | Not specified |
-| [**sequoh_quote**](https://github.com/digenoma-lab/sequoh_quote) | No declared version | Documented | MVP funcional para una pre-cotizacion web de servicios de secuenciacion y bioinformatica. La app permite navegar un catalogo, agregar servicios a... | Not specified |
 | [**SMAGdb**](https://github.com/digenoma-lab/SMAGdb) | No declared version | Documented | The soid metagenome data base and analysis toolkit | Not specified |
 | [**snps_mags**](https://github.com/digenoma-lab/snps_mags) | V1.0 | Active | snps_mags is a Nextflow pipeline designed for calling point mutations in Metagenome-Assembled Genomes (MAGs) using InStrain. The pipeline... | Nextflow, Slurm, BWA, FastQC, Samtools |
 | [**somalier-nf**](https://github.com/digenoma-lab/somalier-nf) | v1.0 | Active | Minimal Nextflow DSL2 pipeline for somalier, the pipeline include | Nextflow, Slurm, somalier |
