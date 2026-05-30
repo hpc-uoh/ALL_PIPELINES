@@ -56,7 +56,7 @@ The GitHub Actions workflow `.github/workflows/update-readme.yml` refreshes it o
 | [**cancer_histology**](https://github.com/digenoma-lab/cancer_histology) | No declared version | Experimental | Unlike genomic information, histological images of cancer patients are a simpler method of obtaining information. In particular, H&E method images... | Not specified |
 | [**CHI-DT**](https://github.com/digenoma-lab/CHI-DT) | No declared version | Documented | Data Note paper of Chilean genomes | Not specified |
 | [**CHI-T2T**](https://github.com/digenoma-lab/CHI-T2T) | No declared version | Documented | Repo with analysis and data for the human genome paper. | Not specified |
-| [**covid_genomics**](https://github.com/digenoma-lab/covid_genomics) | v1.0 | Documented | Repository holding analysis of 100 covid chilean genomes | Not specified |
+| [**covid_genomics**](https://github.com/digenoma-lab/covid_genomics) | v1.0 | Documented | Analysis repository for SARS-CoV-2 genomes from Chile, with emphasis on consensus SNVs, intra-host SNVs (iSNVs), lineage/variant comparisons, and... | Python, R |
 | [**CRAB-MIL**](https://github.com/digenoma-lab/CRAB-MIL) | v1.0 | Experimental | This repository reproduces the results in the paper. | Python |
 | [**data-TARA**](https://github.com/digenoma-lab/data-TARA) | No declared version | Documented | Repositorio de análisis integrados MetaTranscriptómica (MetaT) y MetaGenómica (MetaG) del proyecto TARA Chile. | Not specified |
 | [**DGL_TAT**](https://github.com/digenoma-lab/DGL_TAT) | No declared version | Documented | Repositorio con diversa documentación de procesos ejecutados por el digenoma lab en distintos cluster de computo | Not specified |
