@@ -43,7 +43,7 @@ The GitHub Actions workflow `.github/workflows/update-readme.yml` refreshes it o
 | [**alndvs**](https://github.com/digenoma-lab/alndvs) | No declared version | Documented | Somatic point mutation calling for matched and tumor-only samples | Not specified |
 | [**alnsl**](https://github.com/digenoma-lab/alnsl) | V0.1 | Active | A nextflow pipeline for alignment of short WGS reads. | Nextflow, Slurm, BWA, FastQC, Samtools |
 | [**analisis-paper-cancer**](https://github.com/digenoma-lab/analisis-paper-cancer) | No declared version | Documented | R code | Not specified |
-| [**AncestryDMR**](https://github.com/digenoma-lab/AncestryDMR) | 0.0.1 | Active | A Nextflow pipeline to identify ancestry-related DMRs in cohorts sequenced with Oxford Nanopore (ONT). Starting from long-read CRAMs and a phased... | Nextflow, Slurm, Samtools, bcftools, Nanopore |
+| [**AncestryDMR**](https://github.com/digenoma-lab/AncestryDMR) | 0.0.1 | Active | A Nextflow pipeline to identify ancestry-related DMRs in cohorts sequenced with Oxford Nanopore (ONT). Starting from long-read CRAMs and a phased... | Nextflow, Slurm, Samtools, bcftools, bedtools |
 | [**AncestryInference**](https://github.com/digenoma-lab/AncestryInference) | 0.0.1 | Active | Nextflow pipeline for global and local ancestry inference, with QC and visualisation of the correlation between local (LAI) and global (GAI)... | Nextflow, Slurm, bcftools |
 | [**AncestryPCA**](https://github.com/digenoma-lab/AncestryPCA) | 1.0 | Active | Ancestry PCA pipeline for genomic data, with a focus on Chilean cohorts and population-structure work alongside a reference panel (for example... | Nextflow, Slurm, bcftools |
 | [**annotsv**](https://github.com/digenoma-lab/annotsv) | 1.0 | Active | Sotfware to annotate human structural variants | Nextflow, Slurm |
@@ -72,6 +72,7 @@ The GitHub Actions workflow `.github/workflows/update-readme.yml` refreshes it o
 | [**fchims**](https://github.com/digenoma-lab/fchims) | No declared version | Documented | Github with code for aseembly, annotation, methylation and variants. | Not specified |
 | [**Gallbladder_WGS**](https://github.com/digenoma-lab/Gallbladder_WGS) | No declared version | Documented | Figures and analysis for Gallbladder manuscript | PURPLE |
 | [**gannot**](https://github.com/digenoma-lab/gannot) | 0.0.1 | Active | Clinical grade annotation of WGS variants. | Nextflow, Slurm, bcftools, bedtools |
+| [**gasm**](https://github.com/digenoma-lab/gasm) | No declared version | Active | Nextflow DSL2 workflow for reference-guided scaffolding, organelle extraction, and assembly completeness assessment. | Nextflow, Slurm, RagTag |
 | [**genome_assembly_tools**](https://github.com/digenoma-lab/genome_assembly_tools) | No declared version | Documented | Scripts to manipulate files associated to genome assembly | Not specified |
 | [**GWAS**](https://github.com/digenoma-lab/GWAS) | 1.6 | Active | Nextflow pipeline for genome-wide association analysis and ancestry-stratified GWAS with Tractor. Global and local ancestry (ADMIXTURE + RFMix)... | Nextflow, Slurm, Samtools, bcftools |
 | [**hapdup-nf**](https://github.com/digenoma-lab/hapdup-nf) | v1.0 | Active | Nextflow pipeline for running HapDup for haplotype assembly. | Nextflow, STAR, Wengan, minimap2, Samtools |
